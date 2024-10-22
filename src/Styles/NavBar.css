@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .navbar {
+    background: #134a85;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed; /* Make navbar fixed */
+    top: 0; /* Stick to the top */
+    left: 0; /* Align to the left */
+    right: 0; /* Align to the right */
+    height: 80px; /* Set a height for the navbar */
+    width:100%; 
+    }
+    .navbar-logo{
+      width: auto;  
+      height:100%;  
+      max-width: 100%;        
+      object-fit: cover; 
+       margin-left:20px;
+
+    }
+  
+    .navbar-title {
+      flex-grow: 1; 
+      color:white;
+      margin: 10;
+      font-size: 24px;
+      text-align: center; 
+   
+  }
+    
+    .navbar-links {
+      list-style: none;
+      display: flex;
+      gap: 1rem;
+    }
+    
+    .navbar-links a {
+      color: white;
+      text-decoration: none;
+    }
+    
+    .navbar-links a:hover {
+      text-decoration: underline;
+    }

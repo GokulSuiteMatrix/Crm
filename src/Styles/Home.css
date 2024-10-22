@@ -1,0 +1,28 @@
+.home {
+    padding: 10px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .dashboard {
+    margin-top: 20px;
+  }
+  
+  .dashboard-cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+  }
+  
+  .latest-activity {
+    margin-top: 40px;
+  }
